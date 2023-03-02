@@ -1,21 +1,28 @@
 import { useDispatch, useSelector } from "react-redux";
-import productList from "../data/productList.json";
 import "../styles/home.scss";
+import { fetchAll } from "../store/productSlice";
 import cartSlice from "../store/createSlice";
+import { useEffect } from "react";
 
 const Home = () => {
-  const { cartProductsIds } = useSelector((state) => state.cart);
+  const state = useSelector((state) => state);
+  const {cart, products} = state;
   const { addToCart, removeFromCart } = cartSlice.actions;
 
   const dispatch = useDispatch();
 
-  console.log(cartProductsIds);
+  useEffect(() => {
+   dispatch(fetchAll('http://localhost:3000/products'))
+  }, [dispatch])
+
+  console.log(products);
+
 
   return (
     <div className="container product-catalogue">
       <p className="title">Kiddie Corner Mall</p>
       <div className="row">
-        {productList.products.map((product) => {
+        {products.data?.map((product) => {
           return (
             <div className="wrapper col-md-4" key={product.id}>
               <div className="card">
@@ -28,7 +35,7 @@ const Home = () => {
                 <div className="card-body text-center">
                   <h5 className="card-title">{product.name}</h5>
                   <p className="card-text">${product.price}</p>
-                  {!cartProductsIds.includes(product.id) && (
+                  {!cart.cartProductsIds.includes(product.id) && (
                     <button
                       className="btn add-btn"
                       onClick={() => dispatch(addToCart(product.id))}
@@ -36,7 +43,7 @@ const Home = () => {
                       Add to cart
                     </button>
                   )}
-                  {cartProductsIds.includes(product.id) &&(<button
+                  {cart.cartProductsIds.includes(product.id) &&(<button
                     className="btn remove-btn"
                     onClick={() => dispatch(removeFromCart(product.id))}
                   >
