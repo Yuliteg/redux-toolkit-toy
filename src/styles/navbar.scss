@@ -1,0 +1,44 @@
+.navbar {
+  background-image: url('https://webgradients.com/public/webgradients_png/043%20New%20York.png');
+  background-repeat: no-repeat;
+  border-radius: 0;
+  color: #fff;
+  height: 6.5rem;
+
+  .selected {
+    i {
+      color: #3d4253;
+    }
+  }
+
+  i {
+    font-size: 3rem;
+    color: #3d4253;
+    float: right;
+    margin: 1rem;
+
+    &:hover {
+      color: #000000;
+    }
+  }
+
+  i.bi-cart3 {
+    margin-right: 7rem;
+  }
+
+  i.bi-shop-window {
+    float: left;
+    margin-left: 7rem;
+  }
+
+  .cart-number {
+    position: absolute;
+    right: 6.3rem;
+    top: 1.2rem;
+    border-radius: 50%;
+    color: #fff;
+    background: #207153;
+    padding: 1rem 0.6rem;
+    font-size: 1.2rem;
+  }
+}

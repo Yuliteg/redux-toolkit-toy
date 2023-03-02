@@ -1,0 +1,46 @@
+.product-catalogue {
+  .wrapper {
+    margin-bottom: 5rem;
+  }
+
+  .title {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-family: Verdana;
+  }
+
+  .card {
+    background: #fff;
+    height: 50rem;
+    padding-top: 2.5rem;
+    border-radius: 50px;
+  }
+
+  .card-img-top {
+    height: 27rem;
+    width: 27rem;
+    object-fit: contain;
+  }
+
+  .card-title {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 25px;
+  }
+
+  .qty-buttons {
+    margin-top: 2rem;
+  }
+
+  .btn.qty-left {
+    margin-left: 1rem;
+  }
+
+  .btn.qty-right {
+    margin-right: 1rem;
+  }
+}

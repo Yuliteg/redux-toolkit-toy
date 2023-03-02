@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Сute ostrich",
+      "detail": "Super Springs",
+      "price": 70,
+      "imageUrl": "https://m.media-amazon.com/images/I/71ywKu3yZeL.jpg"
+    },
+    {
+      "id": "2",
+      "name": "The Canine Collection Co",
+      "detail": "Super Sergeant",
+      "price": 129,
+      "imageUrl": "https://m.media-amazon.com/images/I/515SCxSH+cL._AC_SX425_.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Black cat",
+      "detail": "Super River",
+      "price": 91,
+      "imageUrl": "https://m.media-amazon.com/images/I/519fIzjaucL._AC_SY450_.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Сute deer",
+      "detail": "Super Rex",
+      "price": 47,
+      "imageUrl": "https://m.media-amazon.com/images/I/51jathVXrJL._AC_SY606_.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Dog",
+      "detail": "Super Portman",
+      "price": 95,
+      "imageUrl": "https://m.media-amazon.com/images/I/418tVCiUduL._AC_SX679_.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cat",
+      "detail": "Super Levi",
+      "price": 89,
+      "imageUrl": "https://m.media-amazon.com/images/I/5121SrIquzL._AC_SX425_.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Dog",
+      "detail": "Super Fred",
+      "price": 45,
+      "imageUrl": "https://m.media-amazon.com/images/I/41qsCia8O8L._AC_SX425_.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Woof Street",
+      "detail": "Super Elton",
+      "price": 12,
+      "imageUrl": "https://m.media-amazon.com/images/I/31cb1RL0jkL._AC_SX425_.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Cat",
+      "detail": "Super Eileen",
+      "price": 39,
+      "imageUrl": "https://m.media-amazon.com/images/I/41OijPY7BaL._AC_SX425_.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Dog",
+      "detail": "Super Dolores",
+      "price": 102,
+      "imageUrl": "https://m.media-amazon.com/images/I/31ZVYXgj-LL._AC_SX425_.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Dog",
+      "detail": "Super Dolly",
+      "price": 82,
+      "imageUrl": "https://m.media-amazon.com/images/I/41-+CJW0K6L._AC_SX679_.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Dog",
+      "detail": "Super Bubbles",
+      "price": 55,
+      "imageUrl": "https://m.media-amazon.com/images/I/51GbQpvqYwL._AC_SX679_.jpg"
+    }
+  ]
+}
