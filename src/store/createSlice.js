@@ -1,14 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const createSlice = createSlice({
+const cartSlice = createSlice({
  name: 'cart',
  initialState: {
   cartProductsIds: []
  },
- reducers {
+ reducers: {
  addToCart: (state, action) => {
   state.cartProductsIds = [action.payload, ...state.cartProductsIds]
- }
+ },
   removeFromCart: (state, action) => {
   const indexOfId = state.cartProductsIds.indexOf(action.payload)
   state.cartProductsIds.splice(indexOfId)
@@ -18,3 +18,5 @@ const createSlice = createSlice({
  },
 },
 })
+
+export default cartSlice

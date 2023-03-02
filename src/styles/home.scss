@@ -13,6 +13,33 @@
     font-family: Verdana;
   }
 
+  .add-btn {
+    background-color: #207153;
+    color: white;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: #1a543f;
+      text-decoration: none;
+      border: transparent !important
+    }
+  }
+
+  .remove-btn {
+    background-color: rgb(206, 57, 57);
+    color: white;
+    margin-left: 0.5rem;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: rgb(180, 45, 45);
+      text-decoration: none;
+      border: transparent !important
+    }
+  }
+
   .card {
     background: #fff;
     height: 50rem;
